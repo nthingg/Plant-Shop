@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2022, 2:45:48 PM
+    Author     : thinh
+*/
+
+*{
+    box-sizing:border-box;
+}
+html{ 
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+header,section,footer,nav,ul { 
+    float: left;
+    width: 100%;
+}
+header, nav, footer{ 
+    height: 100px;
+    background-color: #e1f5eb;
+}
+section {
+    height: auto;
+}
+header ul {
+    margin:0;
+    padding: 0;
+}
+.formsearch {
+    margin-top: 34px;
+}
+header li{
+    list-style-type: none;
+    text-align: center;
+    float:left;
+    margin: 0 15px;
+}
+header a:hover{
+    background-color: #82ab95;
+    color: white;
+}
+a { 
+    font-weight: bold;
+    color: #006666;
+    text-decoration: none;
+    line-height: 95px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+header li:last-child { 
+    width:30%; 
+    float:right;
+}
+#logo { 
+    width: 100px; 
+    height: 100px; 
+}
+.form table{
+    width:50%;
+}
+.product {
+    width: 20%; 
+    height: auto; 
+    float:left; 
+    margin: 5%;
+}
+.order { 
+    border: 1px solid #cccccc; 
+    width:100%; 
+}
+.order:first-child {
+    margin-top: 20px;
+}
+.order:last-child {
+    margin-bottom: 20px;
+}
+.order tr:first-child{ 
+    width:100%; 
+    background-color:#e1eee7 ; 
+    color: #006666;
+    height: 40px;
+}
+.order td{ 
+    color:black; 
+    width: 10%;
+    text-align: center;
+    border: 1px solid #838383; 
+}
+.plantimg { 
+    width:100px; 
+    height: 100px;
+}
+.shopping { 
+    width:70%;
+}
+.set-center-text {
+    text-align: center;
+}
+.set-center-item {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.submit-btn {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #e1eee7;
+}
+.submit-btn:hover{
+    background-color: #82ab95;
+}
+.formregister {
+    padding: 20px 20px;
+}
+.formregister td {
+    font-size: 15px;
+}
+.normal-submit {
+    font-size: 15px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.noHover{
+    pointer-events: none;
+}
+.p-top-20 {
+    padding-top: 20px;
+}
+.p-bot-20 {
+    padding-bottom: 20px
+}
+.f-size-15 {
+    font-size: 15px
+}
+.filter-container {
+    display:flex;
+    justify-content:space-between;
+}
+.filter-date {
+    text-align: center;
+}
